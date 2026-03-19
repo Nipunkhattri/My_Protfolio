@@ -1,7 +1,7 @@
 import avatar from "@/assets/my.png";
 import ironShiftImg from "@/assets/test.png";
 import hireXAIImg from "@/assets/project-Hirexai.png";
-import shootXpressImg from "@/assets/project-NewsApp.png";
+import genAIStackImg from "@/assets/project-workflow.png";
 import resumePDF from "@/assets/Nipun_Resume.pdf";
 
 const HeroSection = () => {
@@ -66,7 +66,7 @@ const HeroSection = () => {
               <img src={hireXAIImg} alt="HireXAI" className="w-full aspect-[4/3] object-cover" />
             </div>
 
-            {/* Middle layer - ShootXpress */}
+            {/* Middle layer - GenAI-Stack */}
             <div className="absolute left-16 top-16 w-[300px] z-20 rounded-2xl overflow-hidden border border-border shadow-[0_25px_70px_-15px_rgba(0,0,0,0.7)] -rotate-2 hover:rotate-0 transition-transform duration-500">
               <div className="bg-secondary/80 px-3 py-1.5 flex items-center gap-1.5">
                 <div className="flex gap-1">
@@ -74,9 +74,9 @@ const HeroSection = () => {
                   <span className="w-2 h-2 rounded-full bg-foreground/20" />
                   <span className="w-2 h-2 rounded-full bg-foreground/20" />
                 </div>
-                <span className="text-[10px] text-muted-foreground ml-2">shootxpress.com</span>
+                <span className="text-[10px] text-muted-foreground ml-2">github.com</span>
               </div>
-              <img src={shootXpressImg} alt="ShootXpress" className="w-full aspect-[4/3] object-cover" />
+              <img src={genAIStackImg} alt="GenAI-Stack" className="w-full aspect-[4/3] object-cover" />
             </div>
 
             {/* Front layer - IronShift (largest, most prominent) */}

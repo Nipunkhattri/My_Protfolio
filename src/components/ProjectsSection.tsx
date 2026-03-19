@@ -1,6 +1,7 @@
 import ironShiftImg from "@/assets/project-ironshift.png";
 import hireXAIImg from "@/assets/project-Hirexai.png";
-import shootXpressImg from "@/assets/project-shootxpress.png";
+import workflowImg from "@/assets/project-workflow.png";
+
 import newsAppImg from "@/assets/project-NewsApp.png";
 import { ArrowUpRight } from "lucide-react";
 
@@ -24,11 +25,11 @@ const projects = [
     accent: "bg-blue-500/20 text-blue-400",
   },
   {
-    name: "ShootXpress",
-    category: "Photography Business",
-    description: "End-to-end platform for photography businesses to manage bookings, deliver client galleries, and automate workflows. Built to scale your creative brand.",
-    url: "https://shootxpress.com/",
-    image: shootXpressImg,
+    name: "GenAI-Stack---Workflow-Builder",
+    category: "AI Agent Tool",
+    description: "An intuitive, no-code AI agent platform that empowers you to build, customize, and deploy complex AI workflows effortlessly without writing a single line of code.",
+    url: "https://github.com/Nipunkhattri/GenAI-Stack---Workflow-Builder",
+    image: workflowImg,
     gradient: "from-violet-950/60 to-purple-950/40",
     accent: "bg-violet-500/20 text-violet-400",
   },
