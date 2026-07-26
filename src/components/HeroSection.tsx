@@ -45,7 +45,7 @@ const HeroSection = () => {
       </div>
 
       {/* Logo ticker bar */}
-      <div className="mt-10 pt-6 pb-6 border-t border-b border-border overflow-hidden">
+      <div className="mt-16 pt-8 pb-8 border-t border-b border-border overflow-hidden">
         <div className="flex animate-[marquee_20s_linear_infinite] gap-16">
           {[...Array(4)].map((_, setIndex) => (
             <div key={setIndex} className="flex gap-16 items-center shrink-0">
