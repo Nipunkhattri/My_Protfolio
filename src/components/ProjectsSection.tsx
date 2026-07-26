@@ -1,20 +1,10 @@
-import ironShiftImg from "@/assets/project-ironshift.png";
 import hireXAIImg from "@/assets/project-Hirexai.png";
-import workflowImg from "@/assets/project-workflow.png";
+// import workflowImg from "@/assets/project-workflow.png";
+import vesperImg from "@/assets/project-vesper.png";
 
-import newsAppImg from "@/assets/project-NewsApp.png";
 import { ArrowUpRight } from "lucide-react";
 
 const projects = [
-  {
-    name: "IronShift",
-    category: "DevOps · VS Code Extension",
-    description: "AI-powered VS Code extension that lets you manage AWS, Azure, GCP, Docker, and Kubernetes using plain English — no CLI memorization, no console switching.",
-    url: "https://ironshift.dev/",
-    image: ironShiftImg,
-    gradient: "from-orange-950/60 to-red-950/40",
-    accent: "bg-orange-500/20 text-orange-400",
-  },
   {
     name: "HireXAI",
     category: "AI Hiring Platform",
@@ -24,23 +14,23 @@ const projects = [
     gradient: "from-blue-950/60 to-indigo-950/40",
     accent: "bg-blue-500/20 text-blue-400",
   },
+  // {
+  //   name: "GenAI-Stack---Workflow-Builder",
+  //   category: "AI Agent Tool",
+  //   description: "An intuitive, no-code AI agent platform that empowers you to build, customize, and deploy complex AI workflows effortlessly without writing a single line of code.",
+  //   url: "https://github.com/Nipunkhattri/GenAI-Stack---Workflow-Builder",
+  //   image: workflowImg,
+  //   gradient: "from-violet-950/60 to-purple-950/40",
+  //   accent: "bg-violet-500/20 text-violet-400",
+  // },
   {
-    name: "GenAI-Stack---Workflow-Builder",
-    category: "AI Agent Tool",
-    description: "An intuitive, no-code AI agent platform that empowers you to build, customize, and deploy complex AI workflows effortlessly without writing a single line of code.",
-    url: "https://github.com/Nipunkhattri/GenAI-Stack---Workflow-Builder",
-    image: workflowImg,
-    gradient: "from-violet-950/60 to-purple-950/40",
-    accent: "bg-violet-500/20 text-violet-400",
-  },
-  {
-    name: "News App",
-    category: "AI Agents · In Progress",
-    description: "Fully automated news platform powered by AI agents — no human editors, no manual uploads. Agents source, verify, write, and publish in real time.",
-    url: null,
-    image: newsAppImg,
-    gradient: "from-emerald-950/60 to-teal-950/40",
-    accent: "bg-emerald-500/20 text-emerald-400",
+    name: "Vesper",
+    category: "Social App · Live on Play Store",
+    description: "Built at Deccanwave Labs — a social app where you find your people by feeling, not following. Match by mood instead of a feed, drop into live rooms, and have real conversations with zero pressure. Available on Google Play.",
+    url: "https://vesperchat.live/",
+    image: vesperImg,
+    gradient: "from-pink-950/60 to-rose-950/40",
+    accent: "bg-pink-500/20 text-pink-400",
   },
 ];
 

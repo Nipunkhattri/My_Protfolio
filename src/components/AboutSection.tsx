@@ -2,9 +2,9 @@ import aboutPhoto from "@/assets/nipun-photo.png";
 import { Twitter } from "lucide-react";
 
 const workHistory = [
-  { company: "Clavel AI", role: "Backend AI Engineer", years: "June 2025-Present" },
+  { company: "Deccanwave Labs", role: "Founding Engineer", years: "April 2026-Present" },
+  { company: "Clavel AI", role: "Backend AI Engineer", years: "June 2025-April 2026" },
   { company: "Envint Services LLP", role: "Full Stack Developer", years: "Dec 2024-Mar 2025" },
-  { company: "The Mango Jelly", role: "AI Software Developer", years: "Oct 2024-Dec 2024" },
 ];
 
 const AboutSection = () => {
